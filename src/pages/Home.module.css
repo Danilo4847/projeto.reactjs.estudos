@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.box{
+    width: 90%;
+    margin-left: 10%;
+
+}
+.box h1{
+    font-size: 3em;
+    margin-top: 21px;
+    font-family: 'Lobster', cursive;
+    color: darkorange;
+}
+.box img{
+    width: 700px;
+    display: flex;
+    margin: 0 auto;
+    padding-left: 100px;
+    
+}
+.box a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: darkorange;
+    font-weight: bold;
+    background-color: black;
+    padding: 2px;
+    border-radius: 5px;
+
+}
+.box a:hover{
+    color: white;
+}

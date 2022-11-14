@@ -1,0 +1,54 @@
+.form_module {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.form_box {
+    padding-top: 50px;
+}
+
+.form_box input {
+    border-style: none;
+    border-bottom-style: solid;
+    width: 100%;
+    font-size: 2em;
+
+
+}
+
+.form_module select {
+    width: 100%;
+    border-style: none;
+    font-size: 2em;
+    border-radius: 10px;
+    background-color: rgb(43, 43, 43);
+    color: white;
+}
+
+.form_box label {
+    font-size: 2em;
+
+}
+
+.bt {
+    width: 50%;
+    padding: 10px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 1.5em;
+    border-radius: 15px;
+    background-color: chocolate;
+    cursor: pointer;
+    color: white;
+
+}
+
+.bt:hover {
+    background-color: black;
+}
+
+.form_box input:hover {
+    background-color: chocolate;
+}
